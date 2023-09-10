@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Page Creation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="file.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <div data-testid="slackUserName" class="slackUserName">Johnson Oluwasegun</p>
+        <p data-testid="myTrack" class="slackTrack">Frontend</p>
+      </div>
+      <div class="image-container">
+        <img
+          src="Meee.jpg"
+          alt="Johnson Oluwasegun"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+      <div class="github-info">
+        <a
+          href="https://github.com/Johnsonolu/frontEndPageCreation"
+          taret="_blank"
+          data-testid="“githubURL”"
+          >GitHub Source Code</a
+        >
+      </div>
+      <div class="date-wrapper">
+        <div class="dateInfo">
+          <p>Current Day of the Week</p>
+          <span data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek">
+          </span>
+        </div>
+        <div class="dateInfo">
+          <p>Current UTC Time(in ms)</p>
+          <span data-testid="currentUTCTime" id="currentUTCTime"></span>
+        </div>
+      </div>
+    </div>
+    <script src="file.js"></script>
+  </body>
+</html>
